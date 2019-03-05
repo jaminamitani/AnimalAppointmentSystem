@@ -1,0 +1,25 @@
+Justen Minamitani
+bronco id: 010058542
+
+ You will design the administration program for a veterinary office: 
+ The office takes care of Dogs, Birds, and Fish.
+ Each having and Owner, name, age, diseases and status of current/past, and list of vaccinations
+ Each owners have a name, address, and phone number.
+
+This program allows you to access 
+- current appointments on hold,
+- list of resolved appointments,
+- make unresolved -> resolved
+- search funciton by owner name, appointment date, and animals
+- add new appointment
+- save list
+- and load list
+
+I have created a main class that takes charge of all objects: owner, animal(dog, fish, bird), appointments, diseases
+and save them as a list of appointments.
+Each appointment holds owner, one animal, and all other fields necessary
+Each animal then holds a list of disease object.
+
+In main class, there is a display menu and a method for each functionality.
+
+As a conclusion, i learned that error checking is simple but can be very tedious.
